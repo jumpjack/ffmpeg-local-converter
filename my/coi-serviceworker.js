@@ -44,7 +44,8 @@ if (typeof window === 'undefined') {
                     newHeaders.set("Cross-Origin-Embedder-Policy",
                         coepCredentialless ? "credentialless" : "require-corp"
                     );
-                    debugger
+                   // debugger
+console.log("debugger");                    
                     if (!coepCredentialless) {
                         newHeaders.set("Cross-Origin-Resource-Policy", "cross-origin");
                     }
