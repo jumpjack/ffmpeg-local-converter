@@ -144,7 +144,8 @@ const App: React.FC = () => {
 
                         inputFilePath,
                         outputFilePath,
-                        ffmpeg_arguments,
+                        //ffmpeg_arguments,
+                        "-vf v360=fisheye:e"
                     );
                 }
                 catch (e) {
